@@ -1,0 +1,48 @@
+.topics{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 51px;
+    padding-right: 47px;
+}
+.topics-text{
+    display: block;
+    padding-bottom: 40px;
+    margin-left: 20px;
+    font-family: din-2014, Noto Sans JP, ヒラギノ角ゴ ProN, Hiragino Kaku Gothic ProN, Meiryo, メイリオ, sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+}
+.pa1{
+    padding-left: 11px;
+    font-family: din-2014, Noto Sans JP, ヒラギノ角ゴ ProN, Hiragino Kaku Gothic ProN, Meiryo, メイリオ, sans-serif;
+    font-size: 12.1px;
+}
+.pa2{
+    padding-left: 11px;
+    font-family: din-2014, Noto Sans JP, ヒラギノ角ゴ ProN, Hiragino Kaku Gothic ProN, Meiryo, メイリオ, sans-serif;
+    font-size: 8px;
+    letter-spacing: 2px;
+    width: 240px;
+}
+.flex-content{
+    display: flex   ;
+}
+.topics-flex{
+    display:flex;
+    overflow-x:scroll;
+    scrollbar-width: none;
+}
+.topics-flex img{
+    display: block;
+    width: 255.6px;
+}
+.img1:hover{
+    transform: scale(1.1);
+}
+.zoom{
+    overflow: hidden;
+    width: 255.6px;
+}
+.margin{
+    margin-right: 13.9px;
+}

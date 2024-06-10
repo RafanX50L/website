@@ -1,0 +1,34 @@
+.categary{
+    padding-top: 30px;
+    padding-bottom: 40px;
+    padding-left: 14px;
+    padding-right: 15px;
+}
+.first-row{
+    display:flex;
+}
+.under-image{
+    display: flex;
+    background-color: black;
+}
+.under-image p{
+    margin: 0;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 13px;
+    color: white;
+    width: 25%;
+    font-size: 11.6px;
+    font-family: din-2014, Noto Sans JP, ヒラギノ角ゴ ProN, Hiragino Kaku Gothic ProN, Meiryo, メイリオ, sans-serif;
+
+}
+.imgae-categary{
+    overflow: hidden;
+}
+.imgae-categary img{
+    width: 288px;
+    height: 280px;
+}
+.imgae-categary img:hover{
+    transform: scale(1.1);
+}

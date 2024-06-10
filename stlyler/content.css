@@ -1,0 +1,103 @@
+.content img{
+    width: 100%;
+    margin: 0px;
+    display: block;
+}
+.new-product{
+    display: block;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 20px;
+    margin-left: 56px;
+    margin-right: 56px;
+    
+}
+.new-product-text{
+    display: block;
+    padding-top:15px ;
+    padding-bottom: 30px;
+    font-weight: 700;
+    font-size: 2pc;
+    font-family: din-2014, Noto Sans JP, ヒラギノ角ゴ ProN, Hiragino Kaku Gothic ProN, Meiryo, メイリオ, sans-serif;
+
+}
+.box{
+    display: flex;
+    overflow-x: scroll;
+    scrollbar-width: none;
+    margin-bottom: 20px;
+}
+.box1{
+    position: relative;
+    margin-right: 10px;
+}
+.box1 button{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    border: none;
+    background-color: white;
+    font-size: 10px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+.like{
+    position: absolute;
+    top: 7px;
+    right: 7px;
+    font-size: 23px;
+}
+.box img{
+    background-color: #F7F8FA;
+    width: 196px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 41px;
+    padding-right: 41px;
+}
+.box1:hover{
+    border: 1px solid black;
+}
+.box2{
+    text-align: left;
+}
+.box p{
+    margin: 0;
+    padding-left: 9px;
+}
+.p1{
+    font-family: din-2014, Noto Sans JP, ヒラギノ角ゴ ProN, Hiragino Kaku Gothic ProN, Meiryo, メイリオ, sans-serif;
+    font-size: 13px;
+    font-weight: lighter;
+    padding-top: 5px;
+}
+.p2{
+    font-family: din-2014, Noto Sans JP, ヒラギノ角ゴ ProN, Hiragino Kaku Gothic ProN, Meiryo, メイリオ, sans-serif;
+    padding-top: 9px;
+    font-weight: 550;
+    font-size: 15px;
+    padding-bottom: 29px;
+}
+.p3{
+    font-size: 9px;
+    color: gray;
+}
+.p4{
+    font-size: 13px;
+    font-weight: 550;
+}
+.view-all-button{
+    display: block;
+    text-align: center;
+}
+.view-all-button button{
+    background-color: black;
+    border: none;
+    color: white;
+    font-family: din-2014, Noto Sans JP, ヒラギノ角ゴ ProN, Hiragino Kaku Gothic ProN, Meiryo, メイリオ, sans-serif;
+    padding-left: 65px;
+    padding-right: 65px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    font-size: 13px;
+}
